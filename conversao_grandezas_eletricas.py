@@ -55,9 +55,11 @@ while opcao != 13:
     elif opcao == 12:
         num = float(input("Digite o valor em Watt: "))
         print("O valor", num, "em Volt é:", num / 2)
+    elif opcao == 13:
+        print("Saindo do programa...")
+        break
     else:
         print("Opção inválida!")
-
 print("Fim do programa")
 
 
